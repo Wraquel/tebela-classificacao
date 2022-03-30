@@ -1,0 +1,66 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://nerdiertides.files.wordpress.com/2020/02/lofi-hi-hop.png");
+  background-color: #111;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 90px 80px;
+  min-width: 600px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  background-color: black;
+  opacity: 0.8;
+}
+
+h1 {
+  margin: 10px 200px;
+  background: black;
+  padding: 2px;
+  color: whitesmoke;
+}
+
+th,
+tr,
+td {
+  padding: 2px;
+  border: solid 1px white;
+  color: white;
+}
+
+input,
+button {
+  margin: 2px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+button {
+  background-color: #885df1;
+}
+
+td button {
+  opacity: 1;
+}
